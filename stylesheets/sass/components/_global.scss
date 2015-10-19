@@ -1,0 +1,44 @@
+@import '../helpers/functions';
+@import '../helpers/helpers';
+body {
+  background: $primary-color-dark;
+  font-family: sans-serif;
+}
+.h-1 {
+  text-align: center;
+  color: set-text-color ($primary-color-dark);
+  font-weight: lighter;
+}
+#video_player_box {
+	background-color: #000;
+	margin: 0px auto;
+	text-align: center;
+}
+.normalW{
+	width: 800px;
+}
+.fs {
+	width: 100%;
+	height: 100%;
+}
+.normalV {
+	width: 800px;
+}
+.videoFs {
+	width: 100%;
+	height: 90%;
+}
+#video_controls_bar {
+	background-color: rgba(0,0,0,.3);
+	padding: 10px;
+
+}
+#seekBar {
+	width: 80%;
+}
+/*.display_none {
+	display: none;
+}
+.display_inline {
+	display: inline;
+}*/
